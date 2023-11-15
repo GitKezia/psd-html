@@ -66,10 +66,14 @@
     color: whitesmoke;
 }
 
+.red-square h2, p {
+    height: 20%;
+}
+
 section {
-    background-color: whitesmoke;
+    
     color: #fff;
-    text-align: center;
+    text-align: left;
     padding: 1em;
     display: flex;
     justify-content: space-between;
@@ -82,6 +86,9 @@ section .red-square {
     height: 310px;
     background-color: #b82d37;
     position: relative;
+}
+p{
+    color: #525051;
 }
 
 section .nod:before {
@@ -99,4 +106,20 @@ section .nod:before {
 .col h2 {
     color: #333333;
     
+}
+
+.adress img {
+    float: left;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
+
+.contact h2 {
+    color: #dc002d;
+}
+
+
+footer {
+    background-color: whitesmoke;
 }
