@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.home {
+    color: #525051 !important;
+}
+
+.home:hover {
+    background-color: #dc002d;
+    color: whitesmoke !important;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-evenly;
+    height: 150%;
+}
+
+.menu ul li {
+    margin: auto calc(34px / 2);
+    
+}
+
+.menu ul li a {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dc002d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+ 
+
+
+.btn-saiba-mais {
+    border: 1px solid #dcdcdc;
+    color: #dc002d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    line-height: 35pt;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.btn-saiba-mais:hover {
+    color: #333333;
+}
+
+.menu a:hover{
+    background-color: #dc002d;
+    color: whitesmoke;
+}
+
+section {
+    background-color: whitesmoke;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+section .red-square {
+    width: 100%;
+    height: 310px;
+    background-color: #b82d37;
+    position: relative;
+}
+
+section .nod:before {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    transform: translate(-70%, -71%);
+    width: 40px;
+    height: 40px;
+    background-color: #b82d37;
+    border-radius: 5%;
+}
+
+.col h2 {
+    color: #333333;
+    
+}
